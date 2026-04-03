@@ -34,7 +34,7 @@ export function ImageCarouselHero({
   features = [
     {
       title: "Echipă Multidisciplinară",
-      description: "Specialiști cu experiență vastă în domenii medicale diverse",
+      description: "Specialiști cu experiență vastă în domenii medicale",
     },
     {
       title: "Răspuns în 24h",

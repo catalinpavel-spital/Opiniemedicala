@@ -34,7 +34,7 @@ export function ImageCarouselHero({
   features = [
     {
       title: "Echipă Multidisciplinară",
-      description: "Specialiști cu experiență vastă în domenii medicale",
+      description: "Specialiști cu experiență vastă în domenii medicale internaționale",
     },
     {
       title: "Răspuns în 24h",
@@ -42,7 +42,7 @@ export function ImageCarouselHero({
     },
     {
       title: "100% Gratuit",
-      description: "Serviciul nostru nu implică niciun cost pentru tine",
+      description: "Opinie medicalǎ gratuitǎ",
     },
   ],
 }: ImageCarouselHeroProps) {
@@ -158,7 +158,7 @@ export function ImageCarouselHero({
       <div className="relative z-10 flex flex-col items-center justify-center min-h-screen px-4 sm:px-6 lg:px-8 pt-20">
         {/* Content Section - Centered with clear middle area */}
         <div className="relative z-20 text-center max-w-3xl mx-auto mb-8 sm:mb-12">
-          <p className="text-[#2596be] font-medium text-sm sm:text-base mb-2 uppercase tracking-wider">
+          <p className="text-white font-bold text-sm sm:text-base mb-2 uppercase tracking-wider">
             {subtitle}
           </p>
           

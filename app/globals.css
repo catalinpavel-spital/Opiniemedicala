@@ -121,7 +121,7 @@ html {
 /* Partners Section Styles */
 .partners {
   padding: 120px 60px;
-  background: var(--primary);
+  background: #6b7280;
   overflow: hidden;
 }
 
@@ -172,12 +172,12 @@ html {
 
 .partners-marquee-wrap::before {
   left: 0;
-  background: linear-gradient(to right, var(--primary), transparent);
+  background: linear-gradient(to right, #6b7280, transparent);
 }
 
 .partners-marquee-wrap::after {
   right: 0;
-  background: linear-gradient(to left, var(--primary), transparent);
+  background: linear-gradient(to left, #6b7280, transparent);
 }
 
 .partners-track {
@@ -227,13 +227,13 @@ html {
   content: '';
   position: absolute;
   inset: 0;
-  background: linear-gradient(135deg, rgba(37, 150, 190, 0.06), transparent);
+  background: linear-gradient(135deg, rgba(107, 114, 128, 0.06), transparent);
   opacity: 0;
   transition: opacity 0.4s;
 }
 
 .partner-card:hover {
-  border-color: rgba(37, 150, 190, 0.3);
+  border-color: rgba(107, 114, 128, 0.3);
   transform: translateY(-3px);
 }
 

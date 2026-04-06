@@ -7,7 +7,7 @@ export function StickyWhatsApp() {
       href="https://wa.me/40738272835"
       target="_blank"
       rel="noopener noreferrer"
-      className="fixed bottom-6 right-6 z-50 bg-[#25D366] hover:bg-[#1fbd5a] text-white p-4 rounded-full shadow-lg hover:shadow-xl transition-all hover:scale-110"
+      className="fixed bottom-5 right-10 z-50 bg-[#25D366] hover:bg-[#1fbd5a] text-white p-5 rounded-full shadow-lg hover:shadow-xl transition-all hover:scale-110"
       initial={{ opacity: 0, scale: 0 }}
       animate={{ opacity: 1, scale: 1 }}
       transition={{ delay: 1.5, duration: 0.5, type: "spring" }}

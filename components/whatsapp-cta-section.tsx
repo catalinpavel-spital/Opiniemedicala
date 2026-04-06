@@ -48,36 +48,6 @@ export function WhatsAppCTASection() {
           <h2 className="text-4xl md:text-5xl font-bold text-[var(--text)] mb-6">
             Contactează-ne pe WhatsApp
           </h2>
-          <p className="text-xl text-[var(--text)]/70 max-w-2xl mx-auto">
-            Procesul este simplu și rapid. Trimite-ne documentele tale medicale direct pe WhatsApp și vei primi o a doua opinie medicală gratuită.
-          </p>
-        </motion.div>
-
-        {/* Steps Grid */}
-        <motion.div
-          className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16"
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6, delay: 0.2 }}
-        >
-          {steps.map((step, index) => (
-            <motion.div
-              key={step.title}
-              className="text-center p-6 rounded-2xl bg-white shadow-sm border border-gray-100"
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.4, delay: 0.1 * index }}
-              whileHover={{ scale: 1.02, transition: { duration: 0.2 } }}
-            >
-              <div className="w-14 h-14 mx-auto mb-4 rounded-full bg-[var(--bg)] border-2 border-[var(--primary)] flex items-center justify-center">
-                <step.icon className="w-7 h-7 text-[var(--primary)]" />
-              </div>
-              <h3 className="text-lg font-semibold text-[var(--text)] mb-2">{step.title}</h3>
-              <p className="text-sm text-[var(--text)]/60">{step.description}</p>
-            </motion.div>
-          ))}
         </motion.div>
 
         {/* Main CTA Card */}
@@ -122,6 +92,33 @@ export function WhatsAppCTASection() {
               Sau sună direct la: <a href="tel:+40738272835" className="text-[var(--primary)] hover:underline">+40 738 272 835</a>
             </p>
           </div>
+        </motion.div>
+
+        {/* Steps Grid */}
+        <motion.div
+          className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16"
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6, delay: 0.2 }}
+        >
+          {steps.map((step, index) => (
+            <motion.div
+              key={step.title}
+              className="text-center p-6 rounded-2xl bg-white shadow-sm border border-gray-100"
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.4, delay: 0.1 * index }}
+              whileHover={{ scale: 1.02, transition: { duration: 0.2 } }}
+            >
+              <div className="w-14 h-14 mx-auto mb-4 rounded-full bg-[var(--bg)] border-2 border-[var(--primary)] flex items-center justify-center">
+                <step.icon className="w-7 h-7 text-[var(--primary)]" />
+              </div>
+              <h3 className="text-lg font-semibold text-[var(--text)] mb-2">{step.title}</h3>
+              <p className="text-sm text-[var(--text)]/60">{step.description}</p>
+            </motion.div>
+          ))}
         </motion.div>
       </div>
     </motion.section>

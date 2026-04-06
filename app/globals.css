@@ -26,7 +26,8 @@ main {
   --text: #1a1a2e;
   --whatsapp: #25D366;
   --gold: #c9a84c;
-  --partners-bg: #0a0a0f;
+  --partners-bg: #124842;
+  --partners-bg-mid: #164f47;
   --partners-text: #f5f0e8;
 
   --background: #ffffff;
@@ -121,7 +122,12 @@ html {
 /* Partners Section Styles */
 .partners {
   padding: 120px 60px;
-  background: #6b7280;
+  background: linear-gradient(
+    165deg,
+    #0f3a34 0%,
+    var(--partners-bg) 42%,
+    var(--partners-bg-mid) 100%
+  );
   overflow: hidden;
 }
 
@@ -172,12 +178,12 @@ html {
 
 .partners-marquee-wrap::before {
   left: 0;
-  background: linear-gradient(to right, #6b7280, transparent);
+  background: linear-gradient(to right, var(--partners-bg), transparent);
 }
 
 .partners-marquee-wrap::after {
   right: 0;
-  background: linear-gradient(to left, #6b7280, transparent);
+  background: linear-gradient(to left, var(--partners-bg-mid), transparent);
 }
 
 .partners-track {
@@ -227,13 +233,18 @@ html {
   content: '';
   position: absolute;
   inset: 0;
-  background: linear-gradient(135deg, rgba(107, 114, 128, 0.06), transparent);
+  background: linear-gradient(
+    135deg,
+    rgba(37, 150, 190, 0.14),
+    rgba(37, 150, 190, 0.02),
+    transparent
+  );
   opacity: 0;
   transition: opacity 0.4s;
 }
 
 .partner-card:hover {
-  border-color: rgba(107, 114, 128, 0.3);
+  border-color: rgba(37, 150, 190, 0.35);
   transform: translateY(-3px);
 }
 

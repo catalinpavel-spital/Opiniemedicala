@@ -12,32 +12,38 @@ export function IntroSection() {
     >
       <div className="text-lg md:text-xl lg:text-2xl text-[#1a1a2e] leading-relaxed font-semibold space-y-4">
         <p>
-          Un diagnostic deschide direcții. A doua opinie le clarifică.
-        </p>
-
-        <motion.p
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.5, delay: 0.3 }}
-        >
-          Medicina evoluează constant — tehnologii noi, tratamente inovatoare și
-          abordări diferite pot schimba semnificativ parcursul unui pacient.
-        </motion.p>
-
-        <motion.p
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.5, delay: 0.6 }}
-        >
+          Un diagnostic deschide{" "}
+          <span className="text-blue-400 font-medium">direcții</span>. A doua
+          opinie le{" "}
+          <span className="text-blue-400 font-medium">clarifică</span>.
+          <br />
+          <br />
+          Medicina evoluează constant —{" "}
+          <span className="text-blue-400 font-medium">tehnologii noi</span>,{" "}
+          <span className="text-blue-400 font-medium">tratamente inovatoare</span>{" "}
+          și{" "}
+          <span className="text-blue-400 font-medium">abordări diferite</span> pot
+          schimba semnificativ parcursul unui pacient.
+          <br />
+          <br />
           A doua opinie medicală îți oferă acces la aceste opțiuni, prin
-          evaluarea cazului de către echipe multidisciplinare, în centre medicale
-          avansate.
+          evaluarea cazului de către{" "}
+          <span className="text-blue-400 font-medium">
+            echipe multidisciplinare
+          </span>
+          , în{" "}
+          <span className="text-blue-400 font-medium">
+            centre medicale avansate
+          </span>
+          .
           <br />
           <br />
-          Îți ofer acces rapid la medici și spitale de referință.
-        </motion.p>
+          Îți ofer acces rapid la{" "}
+          <span className="text-blue-400 font-medium">
+            medici și spitale de referință
+          </span>
+          .
+        </p>
       </div>
     </motion.section>
   );

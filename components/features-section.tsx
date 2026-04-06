@@ -36,8 +36,8 @@ export function FeaturesSection() {
             Cum te ajutăm
           </h2>
           <div className="text-lg text-[var(--text)]/70 max-w-3xl mx-auto leading-relaxed space-y-3">
-            <p>Avem acces la centre medicale de excelență din Turcia, cu echipe medicale multidisciplinare dedicate fiecărui caz.</p>
-            <p>Obținem pentru tine a doua opinie medicală gratuită pe baza dosarului medical sau a informațiilor pe care le poți oferi.</p>
+            <p>Avem acces la spitale de excelență, din Turcia, cu echipe medicale multidisciplinare dedicate fiecărui caz.</p>
+            <p>Obținem pentru tine a doua opinie medicală gratuită, pe baza dosarului medical sau a informațiilor pe care le poți oferi.</p>
             <p>Dosarul tău este discutat în comisii medicale formate din profesori doctori specialiști.</p>
           </div>
         </div>

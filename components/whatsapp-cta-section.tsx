@@ -52,7 +52,7 @@ export function WhatsAppCTASection() {
 
         {/* Main CTA Card */}
         <motion.div
-          className="rounded-3xl p-8 md:p-12 text-center bg-white shadow-lg border border-[var(--primary)]/20"
+          className="rounded-3xl p-8 md:p-12 text-center bg-white shadow-lg border border-[var(--primary)]/20 mb-12 md:mb-16 lg:mb-20"
           initial={{ opacity: 0, scale: 0.95 }}
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}

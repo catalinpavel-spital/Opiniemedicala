@@ -15,7 +15,7 @@ import { Toaster } from "sonner";
 const heroImages = [
   {
     id: "1",
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/2-ok61YqAxA66lcNdtDUGQyt52VdYTzV.png",
+    src: "/PozaTopLeft.png",
     alt: "Comisie medicală multidisciplinară",
     rotation: -12,
   },
@@ -27,7 +27,7 @@ const heroImages = [
   },
   {
     id: "3",
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image00004-is9ISoSkNkeiAH2QqxLopUREC2hAFy.jpeg",
+    src: "/PozaTopRight.png",
     alt: "Eva Pavel - Spitale Străinătate",
     rotation: -5,
   },

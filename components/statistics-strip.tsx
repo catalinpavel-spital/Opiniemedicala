@@ -50,7 +50,7 @@ export function StatisticsStrip() {
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
   const stats = [
-    { icon: <FileCheck size={40} />, endValue: 60.000, suffix: "+", label: "Cazuri Analizate" },
+    { icon: <FileCheck size={40} />, endValue: 60000, suffix: "+", label: "Cazuri Analizate" },
     { icon: <Building2 size={40} />, endValue: 14, suffix: "", label: "Spitale Partenere" },
     { icon: <Heart size={40} />, endValue: 100, suffix: "%", label: "Satisfacție Pacienți" },
     { icon: <BadgeCheck size={40} />, endValue: 100, suffix: "%", label: "Gratuit" },

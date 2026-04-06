@@ -13,33 +13,46 @@ export function IntroSection() {
       <div className="text-lg md:text-xl lg:text-2xl text-[#1a1a2e] leading-relaxed font-semibold space-y-4">
         <p>
           Un diagnostic deschide{" "}
-          <span className="text-blue-400 font-medium">direcții</span>. A doua
-          opinie le{" "}
-          <span className="text-blue-400 font-medium">clarifică</span>.
+          <span style={{ color: "rgb(37, 150, 190, 0.15)", fontWeight: 500 }}>
+            direcții
+          </span>
+          . A doua opinie le{" "}
+          <span style={{ color: "rgb(37, 150, 190, 0.15)", fontWeight: 500 }}>
+            clarifică
+          </span>
+          .
           <br />
           <br />
           Medicina evoluează constant —{" "}
-          <span className="text-blue-400 font-medium">tehnologii noi</span>,{" "}
-          <span className="text-blue-400 font-medium">tratamente inovatoare</span>{" "}
+          <span style={{ color: "rgb(37, 150, 190, 0.15)", fontWeight: 500 }}>
+            tehnologii noi
+          </span>
+          ,{" "}
+          <span style={{ color: "rgb(37, 150, 190, 0.15)", fontWeight: 500 }}>
+            tratamente inovatoare
+          </span>{" "}
           și{" "}
-          <span className="text-blue-400 font-medium">abordări diferite</span> pot
+          <span style={{ color: "rgb(37, 150, 190, 0.15)", fontWeight: 500 }}>
+            abordări diferite
+          </span>{" "}
+          pot
           schimba semnificativ parcursul unui pacient.
           <br />
           <br />
           A doua opinie medicală îți oferă acces la aceste opțiuni, prin
           evaluarea cazului de către{" "}
-          <span className="text-blue-400 font-medium">
+          <span style={{ color: "rgb(37, 150, 190, 0.15)", fontWeight: 500 }}>
             echipe multidisciplinare
           </span>
           , în{" "}
-          <span className="text-blue-400 font-medium">
+          <span style={{ color: "rgb(37, 150, 190, 0.15)", fontWeight: 500 }}>
             centre medicale avansate
           </span>
           .
           <br />
           <br />
           Îți ofer acces rapid la{" "}
-          <span className="text-blue-400 font-medium">
+          <span style={{ color: "rgb(37, 150, 190, 0.15)", fontWeight: 500 }}>
             medici și spitale de referință
           </span>
           .

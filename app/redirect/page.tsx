@@ -2,7 +2,9 @@ import type { Metadata } from "next"
 import { redirect } from "next/navigation"
 
 export const metadata: Metadata = {
-  title: "Redirecționare | Spitale Străinătate",
+  title: "Reindirizzamento | Medical Opinion",
+  description:
+    "Endpoint di reindirizzamento interno sicuro (solo percorsi relativi che iniziano con /).",
   robots: { index: false, follow: false },
 }
 
@@ -14,8 +16,8 @@ function getFirstString(
 }
 
 /**
- * Redirecționare internă sigură. Exemplu: /redirect?to=/termeni-si-conditii
- * Respinge rutele care nu încep exact cu un singur "/" (evită open-redirect).
+ * Reindirizzamento interno sicuro. Esempio: /redirect?to=/termeni-si-conditii
+ * Rifiuta valori non sicuri (evita open-redirect).
  */
 function safeInternalPath(to: string | undefined): string {
   if (!to) return "/"
